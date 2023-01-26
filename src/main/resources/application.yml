@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: Account_Back
+    
+server.port: 8070
+spring.mvc.pathmatch.matching-strategy: ant-path-matcher
+
+spring.datasource.driver-class-name: org.h2.Driver
+spring.datasource.url: jdbc:h2:mem:account
+spring.datasource.username: sa
+spring.datasource.password: sa
+spring.jpa.show-sql: true
+spring.flyway.locations: classpath:initialDml
+spring.h2.console.enabled: true
+spring.h2.console.path: /h2-console

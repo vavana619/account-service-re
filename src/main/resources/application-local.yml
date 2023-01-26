@@ -1,0 +1,7 @@
+my-service:
+  product:
+    host: localhost
+    port: 8071
+  reserve:
+    host: localhost
+    port: 8072
